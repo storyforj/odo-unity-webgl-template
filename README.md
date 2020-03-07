@@ -10,6 +10,7 @@ This repository contains everything you need to integrate your Unity game with O
 4. Add an Empty Object into the BootScene
 5. Name the Empty Object "BootSceneLoader"
 6. Use "Add a Component" on the BootSceneLoader to add the "BootSceneLoader.cs" script
+7. Make sure to edit BootSceneLoader.cs and specify which scene you'd like it to start once the player is ready
 
 That should be it. Follow the examples in BootSceneLoader.cs and the index.html file to use everything available
 from the [odo-js-sdk](https://github.com/storyforj/odo-js-sdk).
